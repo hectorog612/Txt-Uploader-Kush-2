@@ -1,0 +1,40 @@
+
+{
+    "name": "CHUTIYAt",
+    "description": "LODU",
+    "repository": "https://github.com/z",
+    "keywords": [
+        "telegram bot",
+        "pyrogram"
+    ],
+    "env": {
+            "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps #NtrRazYt",
+            "value": "20346550",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps #NtrRazYt",       
+            "value": "bc79c3bea7a626887bdc0871eecf0327",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather #NtrRazYt",
+            "value": "6955629747:AAHo857hsQ1XrQyppnPkG6y0IUiPC0xei34",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+
+}
