@@ -29,7 +29,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["Started"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text(f"🕊️𝐇𝐄𝐋𝐋𝐎  𝐔𝐒𝐄𝐑 ❤️❤️❤️ [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n\n𝐏𝐑𝐄𝐒𝐒  /Caption 😔 𝐒𝐄𝐍𝐃 𝐊𝐀𝐑𝐎 𝐀𝐔𝐑 𝐂𝐎𝐔𝐑𝐒𝐄 𝐔𝐏𝐋𝐎𝐀𝐃𝐄 𝐊𝐀𝐑𝐍𝐀 𝐒𝐓𝐀𝐑𝐓 𝐊𝐀𝐑𝐎 𝐁𝐄 😂😂")
+    editable = await m.reply_text(f"🕊️𝐇𝐄𝐋𝐋𝐎  𝐔𝐒𝐄𝐑 ❤️❤️❤️ [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n\n𝐏𝐑𝐄𝐒𝐒  /Sorry 😔 𝐒𝐄𝐍𝐃 𝐊𝐀𝐑𝐎 𝐀𝐔𝐑 𝐂𝐎𝐔𝐑𝐒𝐄 𝐔𝐏𝐋𝐎𝐀𝐃𝐄 𝐊𝐀𝐑𝐍𝐀 𝐒𝐓𝐀𝐑𝐓 𝐊𝐀𝐑𝐎 𝐁𝐄 😂😂")
 
 
 @bot.on_message(filters.command("Ruko"))
@@ -38,7 +38,7 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["Sorry"]))
+@bot.on_message(filters.command(["Ak47"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('𝗦𝗘𝗡𝗗 𝗧𝗫𝗧 𝗙𝗜𝗟𝗘 𝗙𝗢𝗥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗢𝗨𝗥𝗦𝗘 𝗔𝗡𝗗 𝗨𝗣𝗟𝗢𝗔𝗗 𝗧𝗢 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠')
     input: Message = await bot.listen(editable.chat.id)
