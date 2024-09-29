@@ -2,7 +2,7 @@
 {
     "name": "CHUTIYAt",
     "description": "LODU",
-    "repository": "https://github.com/z",
+    "repository": "https://github.com/hectorog612/Txt-Uploader-Kush-2",
     "keywords": [
         "telegram bot",
         "pyrogram"
@@ -10,17 +10,17 @@
     "env": {
             "API_ID": {
             "description": "Your API_ID from https://my.telegram.org/apps #NtrRazYt",
-            "value": "20346550",
+            "value": "22308019",
             "required": true
         },
         "API_HASH": {
             "description": "Your API_HASH from https://my.telegram.org/apps #NtrRazYt",       
-            "value": "bc79c3bea7a626887bdc0871eecf0327",
+            "value": "fe49bff9eaadccecb58ded07aff33e88",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather #NtrRazYt",
-            "value": "6716231294:AAExASLX2mFEfguhQM5UOPQEEIvopmt7o-E",
+            "value": "6619007467:AAEEyMVZRXWXh8x7ijQo_SuucUEZCr8wea8-E",
             "required": true
         }
     },
